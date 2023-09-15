@@ -24,13 +24,13 @@ I was in a Science background but shifted towards my interest which is UI/UX and
 <a href="mailto:zafrantajudin@gmail.com">
   <img alt="GMail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white">
 </a>
-<a href="instagram.com/ranngrafik">
+<a href="https://www.instagram.com/ranngrafik">
   <img alt="Instagram" src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white">
 </a>
-<a href="linkedin.com/in/zafrantajudin">
+<a href="https://www.linkedin.com/in/zafrantajudin">
   <img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white">
 </a>
-<a href="behance.net/ranngrafik">
+<a href="https://www.behance.net/ranngrafik">
   <img alt="Behance" src="https://img.shields.io/badge/Behance-1769ff?style=for-the-badge&logo=behance&logoColor=white">
 </a>
 <br><br>
