@@ -4,12 +4,13 @@
 
 Zafran or Rann here. Currently a Computer Science (Multimedia Computing) student.
 
-I was in a Science background but shifted towards my interest which is UI/UX and computer stuff like programming.
+I was in a Science background but shifted towards my interest which is UI/UX and computer stuff like programming. 
+<br><br>
 
 🔭 I'm currently working on sharping my development skill!
 🍵JAVA, PYTHON is my current favourite. But i've done a simple web dev too.
 - You will find me mostly do gaming, learning, watching or designing in my free time.
-- I'm looking for small or side project so I can learn and practice in develop real project.
+- I'm looking for small or side project so I can learn and practice in development based on real project.
 
 📫📫📫 You can reach me through
 
@@ -47,17 +48,3 @@ I was in a Science background but shifted towards my interest which is UI/UX and
 ![CatHeartEyesYoonmilkersGIF](https://github.com/zfrnaa/zfrnaa/assets/73056612/c5c62de3-16c3-4e63-bf9c-45ee42a52df3)
 
 ![github stats](https://github-readme-stats.vercel.app/api?username=zfrnaa)
-<!--
-**zfrnaa/zfrnaa** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
