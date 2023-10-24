@@ -1,6 +1,6 @@
 <img src="https://github.com/zfrnaa/zfrnaa/assets/73056612/6b4ad779-da49-4c78-9271-c665f21485da">
 
-## Hi there 👋
+# Hi there 👋
 
 Zafran or Rann here. Currently a Computer Science (Multimedia Computing) student.
 
