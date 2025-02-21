@@ -42,7 +42,7 @@ Current project working on:
   <img alt="Behance" src="https://img.shields.io/badge/Behance-1769ff?style=for-the-badge&logo=behance&logoColor=white">
 </a>
 <br>
-  ---
+  <hr>
   <p> Here some of my favourite and mostly use<br><br>
     [![Figma](https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=white)](#)
     [![Blender](https://img.shields.io/badge/Blender-%23F5792A.svg?logo=blender&logoColor=white)](#)
@@ -56,6 +56,7 @@ Current project working on:
   </p>
 </body>
 ---
+
 ![CatHeartEyesYoonmilkersGIF](https://github.com/zfrnaa/zfrnaa/assets/73056612/c5c62de3-16c3-4e63-bf9c-45ee42a52df3)
 
 ![github stats](https://github-readme-stats.vercel.app/api?username=zfrnaa)
