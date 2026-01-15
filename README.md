@@ -60,4 +60,4 @@ Current project works with:
 
 ![CatHeartEyesYoonmilkersGIF](https://github.com/zfrnaa/zfrnaa/assets/73056612/c5c62de3-16c3-4e63-bf9c-45ee42a52df3)
 
-![github stats](https://github-readme-stats.vercel.app/api?username=zfrnaa)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=zfrnaa)](https://github.com/anuraghazra/github-readme-stats)
