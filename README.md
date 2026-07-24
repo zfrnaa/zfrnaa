@@ -19,7 +19,7 @@ I build digital tools at the intersection of **full-stack backend logic**, **use
 
 * **[pasarmalam.app](https://pasarmalam.app)** — Contributed UI/UX design and maps functionality for Malaysia's night market finder platform.
 * **MyUTHM Overhaul** — Conducted data-driven usability research and restructured core application information architecture.
-* **Enterprise Workflow Automation (DNB)** — Automated internal data pipelines and optimized system processes for enterprise efficiency.
+* **Enterprise Workflow Automation (Telco)** — Automated internal data pipelines and optimized system processes for enterprise efficiency.
 
 ### 🛠 Tech Stack & Tools
 
