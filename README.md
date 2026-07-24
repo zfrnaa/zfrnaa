@@ -35,7 +35,7 @@ I build digital tools at the intersection of **full-stack backend logic**, **use
 ---
 ### 🌐📫 Connect with Me
 
-[<img src="https://img.shields.io/badge/Portfolio-rann--z.netlify.app-black?style=for-the-badge&logo=netlify">](https://rann-z.netlify.app)
+[<img src="https://img.shields.io/badge/Portfolio-black?style=for-the-badge&logo=netlify">](https://rann-z.netlify.app)
 [<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">](https://www.linkedin.com/in/zafrantajudin)
 [<img src="https://img.shields.io/badge/Behance-1769FF?style=for-the-badge&logo=behance&logoColor=white">](https://www.behance.net/ranngrafik)
 [<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white">](mailto:zafrantajudin@gmail.com)
@@ -45,8 +45,7 @@ Fun Facts:
 - I'm looking for a project so I can learn and practice in development based on real project. Do contact me if you any enquiries!
 
 ---
-![](https://github-readme-stats.shion.dev/api?username=zfrnaa&theme=dark&hide_border=true&include_all_commits=false&count_private=false)
-![](https://streak-stats.demolab.com/?user=zfrnaa&theme=dark&hide_border=true)<br/>
+![](https://github-readme-stats.shion.dev/api?username=zfrnaa&theme=dark&hide_border=true&include_all_commits=false&count_private=false)![](https://streak-stats.demolab.com/?user=zfrnaa&theme=dark&hide_border=true)<br/>
 ![](https://github-readme-stats.shion.dev/api/top-langs/?username=zfrnaa&theme=dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact)
 
 ---
