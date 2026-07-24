@@ -21,36 +21,28 @@ I build digital tools at the intersection of **full-stack backend logic**, **use
 * **MyUTHM Overhaul** — Conducted data-driven usability research and restructured core application information architecture.
 * **Enterprise Workflow Automation (DNB)** — Automated internal data pipelines and optimized system processes for enterprise efficiency.
 
-### 🌐 Connect with Me
-
-- 📫 Email me <a href="mailto:zafrantajudin@gmail.com">
-   <img alt="GMail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white">
-</a> and my instagram <a href="https://www.instagram.com/ranngrafik">
-  <img alt="Instagram" src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white">
-</a>
-- 📝 I regularly write articles on <a href="https://www.linkedin.com/in/zafrantajudin">
-  <img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white">
-</a>
-
 ### 🛠 Tech Stack & Tools
+
+#### Languages & Frameworks
+[![My Skills](https://skillicons.dev/icons?i=ts,react,python,nodejs,flutter)](https://skillicons.dev)
+
+#### Cloud, Databases & DevOps
+[![My Skills](https://skillicons.dev/icons?i=azure,gcp,docker,postgres,mysql)](https://skillicons.dev)
+
+#### Design, Prototyping, Game Engine
+[![My Skills](https://skillicons.dev/icons?i=figma,blender,unreal)](https://skillicons.dev)
+
+---
+### 🌐📫 Connect with Me
+
+[<img src="https://img.shields.io/badge/Portfolio-rann--z.netlify.app-black?style=for-the-badge&logo=netlify">](https://rann-z.netlify.app)
+[<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">](https://www.linkedin.com/in/zafrantajudin)
+[<img src="https://img.shields.io/badge/Behance-1769FF?style=for-the-badge&logo=behance&logoColor=white">](https://www.behance.net/ranngrafik)
+[<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white">](mailto:zafrantajudin@gmail.com)
 
 Fun Facts:
 - You will find me mostly do gaming, learning, watching or designing in my free time.
 - I'm looking for a project so I can learn and practice in development based on real project. Do contact me if you any enquiries!
-
-### 📫📫📫 You can connect and get to know me through
-
-<a href="https://www.instagram.com/ranngrafik">
-  <img alt="Instagram" src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white">
-</a>
-<a href="https://www.behance.net/ranngrafik">
-  <img alt="Behance" src="https://img.shields.io/badge/Behance-1769ff?style=for-the-badge&logo=behance&logoColor=white">
-</a>
-
-<h3>Languages and Tools:</h3>
-
-#### Languages & Frameworks:
-[![My Skills](https://skillicons.dev/icons?i=ts,react,python,nodejs,flutter)](https://skillicons.dev)
 
 ---
 ![](https://github-readme-stats.shion.dev/api?username=zfrnaa&theme=dark&hide_border=true&include_all_commits=false&count_private=false)
