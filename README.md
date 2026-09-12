@@ -10,7 +10,7 @@ I build digital tools at the intersection of **full-stack backend logic**, **use
 ### ⚡ Quick Overview
 
 - 🔭 **Currently:** Sharpening AI, DevOps, and Product Engineering workflows.
-- 🌱 **Learning:** Preparing for the **DP-800 (SQL AI Developer)** certification.
+- 🌱 **Learning:** Preparing to get into **AI Engineer/UIUX Developer** work path.
 - 💬 **Ask me about:** Workflow Automation, UI/UX Systems, React, and Full-Stack Architecture.
 - 👯 **Open to:** Engineering & Product Team opportunities, as well as open-source collaborations.
 
