@@ -1,35 +1,44 @@
-<img src="https://github.com/zfrnaa/zfrnaa/assets/73056612/6b4ad779-da49-4c78-9271-c665f21485da">
-
 ## Hi there, I'm Rann 👋
 
-### Full-Stack, UI/UX & AI Intelligent Workflow Automation 
+### Full-Stack, UI/UX & AI Intelligent Workflow Automation
 
-I build digital tools at the intersection of **full-stack backend logic**, **user experience layout**, and **intelligent workflow automation**. With a background in CS (Multimedia Computing), I turn complex workflows into efficient, intuitive software systems. 
-<br>
+I'm a **Software & AI Agent Engineer** based in Kuala Lumpur, Malaysia. I specialize in designing autonomous agentic workflows, scalable backend architectures, and human-centered user experiences. With a background in CS (Multimedia Computing), I turn complex workflows into efficient, intuitive software systems.
 
 ### ⚡ Quick Overview
 
-- 🔭 **Currently:** Sharpening AI, DevOps, and Product Engineering workflows.
-- 🌱 **Learning:** Preparing to get into **AI Engineer/UIUX Developer** work path.
-- 💬 **Ask me about:** Workflow Automation, UI/UX Systems, React, and Full-Stack Architecture.
-- 👯 **Open to:** Engineering & Product Team opportunities, as well as open-source collaborations.
+- 🛠️ **Currently Building:** Autonomous productivity CLI agents with LangGraph & LangSmith, and cloud-native RAG systems.
+- 🌱 **Current Focus & Learning:** Preparing to get into **AI Engineer/UIUX Developer** work path, and learn deeply in AI, DevOps, and Product Engineering workflows.
+- 💬 **Ask me about:** Workflow Automation, UI/UX Systems, and Full-Stack Architecture.
+- 🔍 **Open to:** Engineering & Product Team opportunities, as well as open-source collaborations.
+---
+
+<img src="https://github.com/zfrnaa/zfrnaa/assets/73056612/6b4ad779-da49-4c78-9271-c665f21485da">
 
 ### 🚀 Featured Work & Impact
 
-* **[pasarmalam.app](https://pasarmalam.app)** — Contributed UI/UX design and maps functionality for Malaysia's night market finder platform.
-* **MyUTHM Overhaul** — Conducted data-driven usability research and restructured core application information architecture.
-* **Enterprise Workflow Automation (Telco)** — Automated internal data pipelines and optimized system processes for enterprise efficiency.
+| Project | Description | Stack |
+| :--- | :--- | :--- |
+| **Autonomous CLI Agent** | On-boot system diagnostics, calendar triage, and multimodal Notion classification | `Python` `uv` `LangGraph` `LangSmith` |
+| **[PasarMalam.app](https://pasarmalam.app)** | Community directory and navigation for 1,000+ Malaysian night markets (Contributor) | `React` `TypeScript` `Tailwind` `Maps API` |
+| **Enterprise 5G Visualizer** | Automated internal data pipelines and optimized system processes for enterprise efficiency | `Java` `PostgreSQL` `Leaflet.js` `Tomcat` |
+| **MyUTHM Overhaul** | Conducted data-driven usability research and restructured core application information architecture. | `Figma` `Google Sheet` `Google Form` |
+| **MyUTHM TVET System** | Digitized quality assessment workflows across 100+ academic courses | `React` `Flutter` `Firebase` `Figma` |
+
+---
 
 ### 🛠 Tech Stack & Tools
 
 #### Languages & Frameworks
-[![My Skills](https://skillicons.dev/icons?i=ts,react,python,nodejs,flutter)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=ts,react,python,flutter)](https://skillicons.dev) ![Skill Icons](https://skills.syvixor.com/api/icons?i=langchain&perline=12&radius=40)
 
 #### Cloud, Databases & DevOps
-[![My Skills](https://skillicons.dev/icons?i=azure,gcp,docker,postgres,mysql)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=azure,gcp,docker,githubactions,postgres,mysql)](https://skillicons.dev)
 
 #### Design, Prototyping, Game Engine
-[![My Skills](https://skillicons.dev/icons?i=figma,blender,unreal)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=figma,blender,unreal)](https://skillicons.dev) ![Skill Icons](https://skills.syvixor.com/api/icons?i=adobephotoshop&perline=12&radius=40)
+
+#### Others
+![Skill Icons](https://skills.syvixor.com/api/icons?i=neovim,ollama,microsoftpowerautomate,gsap,davinciresolve,archlinux,googleantigravity,notion&perline=12&radius=40)
 
 ---
 ### 🌐📫 Connect with Me
