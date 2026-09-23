@@ -56,10 +56,6 @@ Fun Facts:
 ![](https://github-readme-stats.shion.dev/api?username=zfrnaa&theme=dark&hide_border=true&include_all_commits=false&count_private=false)![](https://streak-stats.demolab.com/?user=zfrnaa&theme=dark&hide_border=true)<br/>
 ![](https://github-readme-stats.shion.dev/api/top-langs/?username=zfrnaa&theme=dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact)
 
-<p align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=zfrnaa.zfrnaa&left_color=grey&right_color=yellow" alt="Visitor Count" />
-</p>
-
 ---
 
 ![CatHeartEyesYoonmilkersGIF](https://github.com/zfrnaa/zfrnaa/assets/73056612/c5c62de3-16c3-4e63-bf9c-45ee42a52df3)
