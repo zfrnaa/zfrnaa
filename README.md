@@ -12,8 +12,6 @@ I'm a **Software AI Engineer & UIUX Designer** based in Kuala Lumpur, Malaysia. 
 - 🔍 **Open to:** Engineering & Product Team opportunities, as well as open-source collaborations.
 ---
 
-<img src="https://github.com/zfrnaa/zfrnaa/assets/73056612/6b4ad779-da49-4c78-9271-c665f21485da">
-
 ### 🚀 Featured Work & Impact
 
 | Project | Description | Stack |
@@ -51,6 +49,8 @@ I'm a **Software AI Engineer & UIUX Designer** based in Kuala Lumpur, Malaysia. 
 Fun Facts:
 - You will find me mostly do gaming, learning, watching or designing in my free time.
 - I'm looking for a project so I can learn and practice in development based on real project. Do contact me if you any enquiries!
+
+<img src="https://github.com/zfrnaa/zfrnaa/assets/73056612/6b4ad779-da49-4c78-9271-c665f21485da">
 
 ---
 ![](https://github-readme-stats.shion.dev/api?username=zfrnaa&theme=dark&hide_border=true&include_all_commits=false&count_private=false)![](https://streak-stats.demolab.com/?user=zfrnaa&theme=dark&hide_border=true)<br/>
