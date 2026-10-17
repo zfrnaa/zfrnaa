@@ -2,11 +2,11 @@
 
 ### Full-Stack, UI/UX & AI Intelligent Workflow Automation
 
-I'm a **Software & AI Agent Engineer** based in Kuala Lumpur, Malaysia. I specialize in designing autonomous agentic workflows, scalable backend architectures, and human-centered user experiences. With a background in CS (Multimedia Computing), I turn complex workflows into efficient, intuitive software systems.
+I'm a **Software AI Engineer & UIUX Designer** based in Kuala Lumpur, Malaysia. I specialize in designing autonomous agentic workflows, scalable backend architectures, and human-centered user experiences. With a background in CS (Multimedia Computing), I turn complex workflows into efficient, intuitive software systems.
 
 ### ⚡ Quick Overview
 
-- 🛠️ **Currently Building:** Autonomous productivity CLI agents with LangGraph & LangSmith, and cloud-native RAG systems.
+- 🛠️ **Currently Building:** Autonomous Financial agents specifically for handling AR and AP works.
 - 🌱 **Current Focus & Learning:** Preparing to get into **AI Engineer/UIUX Developer** work path, and learn deeply in AI, DevOps, and Product Engineering workflows.
 - 💬 **Ask me about:** Workflow Automation, UI/UX Systems, and Full-Stack Architecture.
 - 🔍 **Open to:** Engineering & Product Team opportunities, as well as open-source collaborations.
@@ -18,7 +18,7 @@ I'm a **Software & AI Agent Engineer** based in Kuala Lumpur, Malaysia. I specia
 
 | Project | Description | Stack |
 | :--- | :--- | :--- |
-| **Autonomous CLI Agent** | On-boot system diagnostics, calendar triage, and multimodal Notion classification | `Python` `uv` `LangGraph` `LangSmith` |
+| **Desktop CLI Agent** | On-boot system diagnostics, calendar triage, and multimodal Notion classification | `Python` `uv` `LangGraph` `LangSmith` |
 | **[PasarMalam.app](https://pasarmalam.app)** | Community directory and navigation for 1,000+ Malaysian night markets (Contributor) | `React` `TypeScript` `Tailwind` `Maps API` |
 | **Enterprise 5G Visualizer** | Automated internal data pipelines and optimized system processes for enterprise efficiency | `Java` `PostgreSQL` `Leaflet.js` `Tomcat` |
 | **MyUTHM Overhaul** | Conducted data-driven usability research and restructured core application information architecture. | `Figma` `Google Sheet` `Google Form` |
