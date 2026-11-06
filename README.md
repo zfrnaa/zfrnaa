@@ -41,7 +41,7 @@ I'm a **Software AI Engineer & UIUX Designer** based in Kuala Lumpur, Malaysia. 
 ---
 ### 🌐📫 Connect with Me
 
-[<img src="https://img.shields.io/badge/Portfolio-black?style=for-the-badge&logo=cloudflare">](https://rann-z.netlify.app)
+[<img src="https://img.shields.io/badge/Portfolio-black?style=for-the-badge&logo=cloudflare">](https://rannz.rannzaf.workers.dev)
 [<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">](https://www.linkedin.com/in/zafrantajudin)
 [<img src="https://img.shields.io/badge/Behance-1769FF?style=for-the-badge&logo=behance&logoColor=white">](https://www.behance.net/ranngrafik)
 [<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white">](mailto:zafrantajudin@gmail.com)
