@@ -56,9 +56,8 @@ Fun Facts:
 ![](https://github-readme-stats.shion.dev/api?username=zfrnaa&theme=dark&hide_border=true&include_all_commits=false&count_private=false)![](https://streak-stats.demolab.com/?user=zfrnaa&theme=dark&hide_border=true)<br/>
 ![](https://github-readme-stats.shion.dev/api/top-langs/?username=zfrnaa&theme=dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact)
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="github-snake.svg" />
-  <img alt="github-snake" src="github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zfrnaa/zfrnaa/output/github-snake-dark.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/zfrnaa/zfrnaa/output/github-snake.svg" />
 </picture>
 
 ---
