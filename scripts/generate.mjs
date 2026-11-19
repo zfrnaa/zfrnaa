@@ -189,44 +189,35 @@ function renderWorkCard(t, item) {
 </svg>`;
 }
 
-function renderOss(t) {
-  const rows = [
-    {
-      repo: "kunkka19xx/look",
-      pr: "feat(gpui): inline preview actions & Run as administrator (Ctrl+Shift+Enter)",
-    },
-    {
-      repo: "kunkka19xx/lookbook",
-      pr: "feat(timezone): add Windows support and clock mode to bin/timezone",
-    },
-    {
-      repo: "muazhazali/caripasarmalam",
-      pr: "PasarMalam.app — map UX, direction chooser & navigation for 1,000+ markets",
-    },
-    {
-      repo: "syvixor/skills-icons",
-      pr: "docs: add Bahasa Melayu (Malay) translation for community documentation",
-    },
-  ];
-  const rowHeight = 46;
-  const totalHeight = rows.length * rowHeight + 2;
-  const rowSvg = rows
-    .map((r, i) => {
-      const y = i * rowHeight;
-      const line =
-        i > 0
-          ? `<line x1="1" y1="${y}" x2="899" y2="${y}" stroke="${t.border}"/>`
-          : "";
-      return `${line}
-      <text x="18" y="${y + 27}" font-family="${FONT_MONO}" font-size="12" font-weight="700" fill="${t.text}">${esc(r.repo)}</text>
-      <text x="242" y="${y + 27}" font-family="${FONT_SANS}" font-size="12.5" fill="${t.muted}">${esc(r.pr)}</text>
-      <text x="882" y="${y + 27}" text-anchor="end" font-family="${FONT_MONO}" font-size="11" font-weight="700" fill="${t.merged}">● MERGED</text>`;
-    })
-    .join("");
+const OSS_ITEMS = [
+  {
+    id: "look",
+    repo: "kunkka19xx/look",
+    pr: "feat(gpui): inline preview actions & Run as administrator (Ctrl+Shift+Enter)",
+  },
+  {
+    id: "lookbook",
+    repo: "kunkka19xx/lookbook",
+    pr: "feat(timezone): add Windows support and clock mode to bin/timezone",
+  },
+  {
+    id: "pasarmalam",
+    repo: "muazhazali/caripasarmalam",
+    pr: "PasarMalam.app — map UX, direction chooser & navigation for 1,000+ markets",
+  },
+  {
+    id: "skills-icons",
+    repo: "syvixor/skills-icons",
+    pr: "docs: add Bahasa Melayu (Malay) translation for community documentation",
+  },
+];
 
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="900" height="${totalHeight}" viewBox="0 0 900 ${totalHeight}" role="img" aria-label="Open-Source Contributions">
-  <rect x="0.5" y="0.5" width="899" height="${totalHeight - 1}" fill="${t.surface}" stroke="${t.border}"/>
-  ${rowSvg}
+function renderOssRow(t, r) {
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="900" height="46" viewBox="0 0 900 46" role="img" aria-label="${esc(r.repo)} — ${esc(r.pr)}">
+  <rect x="0.5" y="0.5" width="899" height="45" fill="${t.surface}" stroke="${t.border}"/>
+  <text x="18" y="27" font-family="${FONT_MONO}" font-size="12" font-weight="700" fill="${t.text}">${esc(r.repo)} <tspan fill="${t.accent}">↗</tspan></text>
+  <text x="252" y="27" font-family="${FONT_SANS}" font-size="12.5" fill="${t.muted}">${esc(r.pr)}</text>
+  <text x="882" y="27" text-anchor="end" font-family="${FONT_MONO}" font-size="11" font-weight="700" fill="${t.merged}">● MERGED</text>
 </svg>`;
 }
 
@@ -297,7 +288,12 @@ async function main() {
         renderWorkCard(t, item)
       );
     }
-    fs.writeFileSync(path.join(OUT_DIR, `oss-${mode}.svg`), renderOss(t));
+    for (const r of OSS_ITEMS) {
+      fs.writeFileSync(
+        path.join(OUT_DIR, `oss-${r.id}-${mode}.svg`),
+        renderOssRow(t, r)
+      );
+    }
     for (const [id, label] of [
       ["threads", "threads"],
       ["email", "email"],
