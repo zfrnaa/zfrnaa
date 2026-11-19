@@ -93,25 +93,103 @@ async function fetchStats() {
   }
 }
 
-function buildWaveRects(t) {
+function buildKLSkyline(t) {
+  const cols = 144;
+  const rows = 15;
+  const cellW = 6;
+  const cellH = 6;
+  const ox = 18;
+  const oy = 31;
+
+  // 4x4 Bayer matrix normalized 0..15 for crisp architectural dithering
+  const bayer = [
+    [0, 8, 2, 10],
+    [12, 4, 14, 6],
+    [3, 11, 1, 9],
+    [15, 7, 13, 5],
+  ];
+
+  // Return cell type: 0 = sky, 1 = building body, 2 = lit/accent spire or window
+  function sampleSkyline(x, y) {
+    // y = 0 is top, y = 14 is ground
+    const fromBottom = rows - 1 - y;
+
+    // 1. Merdeka 118 (cols 24..34)
+    if (x === 29 && fromBottom <= 14) return fromBottom >= 12 ? 2 : 1;
+    if (x >= 27 && x <= 31 && fromBottom <= 10) return (x === 29 && fromBottom % 2 === 0) ? 2 : 1;
+    if (x >= 25 && x <= 33 && fromBottom <= 7) return 1;
+    if (x >= 24 && x <= 34 && fromBottom <= 4) return 1;
+
+    // 2. KL Tower / Menara KL (cols 51..57)
+    if (x === 54 && fromBottom <= 13) return fromBottom >= 11 ? 2 : 1;
+    if (x >= 52 && x <= 56 && fromBottom >= 7 && fromBottom <= 9) return fromBottom === 8 ? 2 : 1;
+    if (x >= 53 && x <= 55 && fromBottom <= 6) return 1;
+
+    // 3. Petronas Twin Towers + Skybridge (cols 75..97)
+    // Left tower center = 80, Right tower center = 92
+    for (const cx of [80, 92]) {
+      const dx = Math.abs(x - cx);
+      if (dx === 0 && fromBottom <= 14) return fromBottom >= 12 ? 2 : 1;
+      if (dx <= 1 && fromBottom <= 11) return (fromBottom === 11) ? 2 : 1;
+      if (dx <= 2 && fromBottom <= 9) return (dx === 0 && fromBottom % 3 === 0) ? 2 : 1;
+      if (dx <= 3 && fromBottom <= 6) return 1;
+    }
+    // Iconic Skybridge connecting the two towers
+    if (x >= 83 && x <= 89 && (fromBottom === 5 || fromBottom === 6)) {
+      return fromBottom === 6 ? 2 : 1;
+    }
+
+    // 4. Exchange 106 / TRX (cols 114..122)
+    if (x >= 116 && x <= 120 && fromBottom <= 11) return fromBottom >= 9 ? 2 : 1;
+    if (x >= 115 && x <= 121 && fromBottom <= 8) return 1;
+
+    // 5. Mid-rise KL urban skyline blocks
+    const blocks = [
+      [3, 9, 4], [11, 16, 6], [18, 22, 3], [37, 42, 5], [44, 48, 3],
+      [60, 65, 5], [67, 72, 4], [100, 105, 5], [107, 111, 4],
+      [125, 130, 5], [133, 139, 4], [141, 143, 2],
+    ];
+    for (const [x1, x2, h] of blocks) {
+      if (x >= x1 && x <= x2 && fromBottom <= h) {
+        return (fromBottom === h && (x + h) % 4 === 0) ? 2 : 1;
+      }
+    }
+
+    // Ground line
+    if (fromBottom === 0) return 1;
+    return 0;
+  }
+
   const rects = [];
-  for (let x = 0; x < 86; x++) {
-    const h = Math.round(
-      2 + Math.sin(x * 0.25) * 2.8 + Math.cos(x * 0.14) * 2.2 + ((x * 13) % 4)
-    );
-    for (let y = 0; y < 10; y++) {
-      const dist = Math.abs(y - (9 - h));
-      const fill =
-        dist === 0
-          ? t.waveHi
-          : dist === 1
-          ? t.waveMid
-          : y > 9 - h
-          ? t.waveLow
-          : t.waveOff;
-      rects.push(
-        `<rect x="${20 + x * 10}" y="${36 + y * 7.5}" width="6" height="5" fill="${fill}"/>`
-      );
+  for (let y = 0; y < rows; y++) {
+    for (let x = 0; x < cols; x++) {
+      const kind = sampleSkyline(x, y);
+      const b = bayer[y % 4][x % 4];
+      let fill = null;
+
+      if (kind === 2) {
+        fill = t.waveHi;
+      } else if (kind === 1) {
+        // Subtle dithered texture inside building silhouettes
+        fill = (y > 4 && b < 4) ? t.waveMid : t.text;
+        const opacity = fill === t.text ? (y < 6 ? "0.75" : "0.45") : "0.85";
+        rects.push(
+          `<rect x="${ox + x * cellW}" y="${oy + y * cellH}" width="4.5" height="4.5" fill="${fill}" opacity="${opacity}"/>`
+        );
+        continue;
+      } else {
+        // Atmospheric Bayer-dithered horizon glow behind skyline
+        const glow = Math.max(0, (y - 5) / 10);
+        if (glow * 14 > b) {
+          fill = t.waveLow;
+        }
+      }
+
+      if (fill) {
+        rects.push(
+          `<rect x="${ox + x * cellW}" y="${oy + y * cellH}" width="4.5" height="4.5" fill="${fill}"/>`
+        );
+      }
     }
   }
   return rects.join("");
@@ -124,8 +202,7 @@ function renderHero(t, stats) {
   <rect x="1" y="1" width="898" height="122" fill="${t.bg}"/>
   <line x1="1" y1="123" x2="899" y2="123" stroke="${t.border}"/>
   <text x="20" y="23" font-family="${FONT_MONO}" font-size="11" fill="${t.muted}" letter-spacing="0.5">zfrnaa <tspan fill="${t.accent}" font-weight="700">■ SHIPPING</tspan></text>
-  <text x="880" y="23" text-anchor="end" font-family="${FONT_MONO}" font-size="11" fill="${t.muted}" letter-spacing="0.4">github.com/zfrnaa · Kuala Lumpur, MY</text>
-  ${buildWaveRects(t)}
+  ${buildKLSkyline(t)}
 
   <!-- Left Identity Column -->
   <line x1="530" y1="123" x2="530" y2="333" stroke="${t.border}"/>
@@ -217,7 +294,6 @@ function renderOssRow(t, r) {
   <rect x="0.5" y="0.5" width="899" height="45" fill="${t.surface}" stroke="${t.border}"/>
   <text x="18" y="27" font-family="${FONT_MONO}" font-size="12" font-weight="700" fill="${t.text}">${esc(r.repo)} <tspan fill="${t.accent}">↗</tspan></text>
   <text x="252" y="27" font-family="${FONT_SANS}" font-size="12.5" fill="${t.muted}">${esc(r.pr)}</text>
-  <text x="882" y="27" text-anchor="end" font-family="${FONT_MONO}" font-size="11" font-weight="700" fill="${t.merged}">● MERGED</text>
 </svg>`;
 }
 
