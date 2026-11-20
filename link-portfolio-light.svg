@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="46" viewBox="0 0 300 46" role="img" aria-label="portfolio">
+  <rect x="0.5" y="0.5" width="299" height="45" fill="#f6f8fa" stroke="#d0d7de"/>
+  <text x="150" y="27" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="12.5" font-weight="700" fill="#1f2328">portfolio <tspan fill="#d97706">↗</tspan></text>
+</svg>
