@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="196" viewBox="0 0 440 196" role="img" aria-label="MyUTHM &amp; TVET Ecosystem">
+  <rect x="0.5" y="0.5" width="439" height="195" fill="#f6f8fa" stroke="#d0d7de"/>
+  <!-- Top Bar -->
+  <line x1="1" y1="34" x2="439" y2="34" stroke="#d0d7de"/>
+  <text x="16" y="21" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#59636e">myuthm-tvet</text>
+  <text x="424" y="21" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="700" fill="#d97706">PREVIOUS WORK</text>
+
+  <!-- Middle Body -->
+  <rect x="1" y="35" width="438" height="117" fill="#eef1f5"/>
+  <text x="16" y="64" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1f2328" letter-spacing="-0.3">MyUTHM &amp; TVET Ecosystem</text>
+  <text x="16" y="88" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="12.5" fill="#59636e">Digitized academic quality assessment workflows across</text>
+  <text x="16" y="107" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="12.5" fill="#59636e">100+ courses and led data-driven usability research &amp;</text>
+  <text x="16" y="126" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="12.5" fill="#59636e">mobile information architecture overhaul.</text>
+
+  <!-- Footer -->
+  <line x1="1" y1="152" x2="439" y2="152" stroke="#d0d7de"/>
+  <text x="16" y="178" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" fill="#59636e">React · Flutter · Firebase · Figma</text>
+  <rect x="338" y="162" width="86" height="22" fill="#d97706"/>
+  <text x="381" y="177" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="10.5" font-weight="700" fill="#ffffff">CASE STUDY</text>
+</svg>
